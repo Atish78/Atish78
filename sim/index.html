@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraPower Supplements - Fuel Your Potential</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <header>
+        <nav>
+            <div class="logo">UltraPower</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Unleash Your Power">Unleash Your Power</h1>
+                <p class="subtitle">Premium supplements for extraordinary results</p>
+                <a href="#products" class="cta-button">Explore Products</a>
+            </div>
+            <div class="hero-image"></div>
+        </section>
+
+        <section id="products">
+            <h2 class="section-title">Our Products</h2>
+            <div class="product-grid">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </section>
+
+        <section id="cart">
+            <h2 class="section-title">Your Cart</h2>
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+        </section>
+
+        <section id="about">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="About UltraPower">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>Why Choose UltraPower?</h2>
+                    <p>At UltraPower, we're dedicated to pushing the boundaries of human potential. Our scientifically formulated supplements are designed to help you achieve peak performance and reach your fitness goals faster than ever before.</p>
+                    <ul class="feature-list">
+                        <li>Cutting-edge formulas</li>
+                        <li>Clinically tested ingredients</li>
+                        <li>Trusted by pro athletes</li>
+                        <li>100% clean and safe</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Get in Touch</h2>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>UltraPower</h3>
+                <p>Fueling your potential with premium supplements.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">YT</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Stay updated with our latest offers and news.</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 UltraPower Supplements. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>UltraPower</h3>
+                <p>Fueling your potential with premium supplements.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">FB</a>
+                    <a href="#" class="social-icon">TW</a>
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">YT</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Stay updated with our latest offers and news.</p>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h4>Address</h4>
+                <p>
+                    UltraPower Supplements<br>
+                    A1 CHOWK ,AKKALKOT,<br>
+                     AKKALKOT-413216<br>
+                    India
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 UltraPower Supplements. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
